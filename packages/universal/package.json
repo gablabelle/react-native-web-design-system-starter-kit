@@ -1,0 +1,19 @@
+{
+  "name": "@timesheet/universal",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "watch": "tsc --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-native": "^0.57.37",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.58.5"
+  }
+}
