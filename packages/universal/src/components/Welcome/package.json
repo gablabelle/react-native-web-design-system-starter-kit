@@ -1,0 +1,5 @@
+{
+  "name": "universal-welcome",
+  "version": "1.0.0",
+  "main": "./Welcome.tsx"
+}
