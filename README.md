@@ -1,4 +1,7 @@
-# react-native-web-storybook-typescript
+# Work In Progress
+
+## react-native-web-storybook-typescript
+
 WIP for a monorepo boilerplate including 3 packages
 
 - universal: a react storybook to develop and test your React-Native components in isolation.
@@ -6,3 +9,13 @@ WIP for a monorepo boilerplate including 3 packages
 - native: TODO react-native project to import universal components (from `universal`) and render them on mobile device natively.
 
 So the goal is to have one codebase you can run on the web and on mobile devices.
+
+## usage
+
+1. Run `yarn` in monorepo to get the dependencies
+
+2. In the `packages/universal` folder, run `yarn build` or `yarn watch` to transpile the components and make them available to the other packages.
+
+3. In the `packages/universal` folder, run `yarn build` to launch the Storybook
+
+4. In the `packages/web` folder, run `yarn start` to launch the create-react-app website that is using the universal component from `packages/universal`.
