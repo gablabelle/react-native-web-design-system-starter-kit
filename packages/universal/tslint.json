@@ -10,7 +10,8 @@
     "prettier": true,
     "promise-function-async": true,
     "newline-before-return": true,
-    "no-implicit-dependencies": false
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false
   },
   "rulesDirectory": ["tslint-plugin-prettier"]
 }

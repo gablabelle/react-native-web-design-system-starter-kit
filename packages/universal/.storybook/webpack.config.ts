@@ -9,6 +9,7 @@ module.exports = (baseConfig, env, config) => {
   config.resolve.alias = {
     'react-native': 'react-native-web'
   };
-  config.resolve.extensions.push('.ts', '.tsx', '.web.ts', '.web.tsx', '.json');
+  config.resolve.extensions.push('.ts', '.tsx');
+
   return config;
 };
