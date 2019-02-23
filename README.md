@@ -19,3 +19,7 @@ So the goal is to have one codebase you can run on the web and on mobile devices
 3. In the `packages/universal` folder, run `yarn build` to launch the Storybook
 
 4. In the `packages/web` folder, run `yarn start` to launch the create-react-app website that is using the universal component from `packages/universal`.
+
+## issue
+
+This is temporary: To "fix" issue #1 simply copy package.json from the Component folders into the dist's Component folders after building them.
