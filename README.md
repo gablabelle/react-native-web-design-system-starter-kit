@@ -25,3 +25,7 @@ So the goal is to have one codebase you can run on the web and on mobile devices
 1. Setup `native` package
 
 2. Use `lerna` ?
+
+3. Structural Testing (StoryShots)
+
+4. Unit tests
