@@ -16,7 +16,7 @@ So the goal is to have one codebase you can run on the web and on mobile devices
 
 2. In the `packages/universal` folder, run `yarn build` or `yarn watch` to transpile the components and make them available to the other packages.
 
-3. In the `packages/universal` folder, run `yarn build` to launch the Storybook
+3. In the `packages/universal` folder, run `yarn storybook` to launch the Storybook
 
 4. In the `packages/web` folder, run `yarn start` to launch the create-react-app website that is using the universal component from `packages/universal`.
 
