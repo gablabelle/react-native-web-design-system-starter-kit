@@ -1,0 +1,43 @@
+{
+  "name": "@timesheet/web",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-art": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-native-web": "^0.10.0",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/jest": "24.0.6",
+    "@types/node": "11.9.4",
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "@types/react-native": "^0.57.37",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0",
+    "tslint-react-native": "^0.0.6",
+    "tslint-react-recommended": "^1.0.15",
+    "typescript": "3.3.3"
+  }
+}
