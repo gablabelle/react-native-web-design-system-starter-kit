@@ -23,3 +23,9 @@ So the goal is to have one codebase you can run on the web and on mobile devices
 ## issue
 
 This is temporary: To "fix" issue #1 simply copy package.json from the Component folders into the dist's Component folders after building them.
+
+## TODOs
+
+1. Setup `native` package
+
+2. Use `lerna` ?
