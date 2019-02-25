@@ -1,10 +1,7 @@
 {
   "name": "@timesheet/universal",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && tsc",
-    "watch": "tsc --watch",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -36,7 +33,6 @@
     "babel-plugin-react-native-web": "^0.10.0",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
-    "rimraf": "^2.6.3",
     "ts-jest": "^24.0.0",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",

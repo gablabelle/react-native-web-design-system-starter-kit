@@ -8,13 +8,16 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "declaration": true,
-    "jsx": "react"
+    "jsx": "react",
+    "emitDecoratorMetadata": true,
+    "sourceMap": true
   },
-  "include": ["src"]
+  "include": ["src", "index.tsx"],
+  "baseUrl": ".",
+  "exclude": ["src/**/*.stories.tsx", "src/**/*.test.tsx", "src/**/*.spec.tsx"]
 }
