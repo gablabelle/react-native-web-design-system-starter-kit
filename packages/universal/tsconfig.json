@@ -19,5 +19,5 @@
   },
   "include": ["src"],
   "baseUrl": ".",
-  "exclude": ["src/**/*.stories.tsx", "src/**/*.test.tsx", "src/**/*.spec.tsx"]
+  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "**/*.d.ts"]
 }
