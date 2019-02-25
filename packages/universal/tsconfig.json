@@ -17,7 +17,7 @@
     "emitDecoratorMetadata": true,
     "sourceMap": true
   },
-  "include": ["src", "index.tsx"],
+  "include": ["src"],
   "baseUrl": ".",
   "exclude": ["src/**/*.stories.tsx", "src/**/*.test.tsx", "src/**/*.spec.tsx"]
 }

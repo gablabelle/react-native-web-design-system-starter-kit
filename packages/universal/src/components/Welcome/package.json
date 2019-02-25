@@ -1,7 +1,6 @@
 {
-  "name": "welcome",
+  "name": "universal-welcome",
   "version": "1.0.0",
   "description": "",
-  "main": "./Welcome",
-  "rootDir": "src"
+  "main": "lib/Welcome.js"
 }
