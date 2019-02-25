@@ -2,5 +2,6 @@
   "name": "universal-welcome",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/Welcome.js"
+  "main": "lib/Welcome.js",
+  "types": "lib/Welcome.d.ts"
 }
