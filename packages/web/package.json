@@ -1,6 +1,6 @@
 {
   "name": "@timesheet/web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {
     "react": "^16.8.2",
     "react-art": "^16.8.2",
