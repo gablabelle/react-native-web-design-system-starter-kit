@@ -19,8 +19,11 @@ Fork this monorepo starter kit to create your own design system and use react-na
 ## TODO
 
 0 - Fix stylelint and storybook addons configurations.
+
 1 - Examples for unit tests.
+
 2 - Structural Testing (StoryShots).
+
 3 - Component, screen and layouts files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
 
 If you are looking for the old version of this repo use `git checkout old`.
