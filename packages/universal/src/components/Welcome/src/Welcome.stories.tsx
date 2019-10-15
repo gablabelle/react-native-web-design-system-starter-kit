@@ -1,5 +1,12 @@
-import { storiesOf } from '@storybook/react';
 import React from 'react';
 import Welcome from './Welcome';
 
-storiesOf('Welcome', module).add('to React Native Web', () => <Welcome />);
+export default {
+  title: 'Welcome',
+};
+
+export const toStorybook = () => <Welcome />;
+
+toStorybook.story = {
+  name: 'to Storybook',
+};

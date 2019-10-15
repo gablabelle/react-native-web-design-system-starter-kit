@@ -1,23 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "esnext",
+    "module": "esnext",
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "strictPropertyInitialization": false,
-    "declaration": true,
     "jsx": "react",
-    "emitDecoratorMetadata": true,
-    "sourceMap": true
+    "declaration": true,
+    "noEmit": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "esModuleInterop": true
   },
   "include": ["src"],
-  "baseUrl": ".",
-  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "**/*.d.ts"]
+  "exclude": [
+    "**/*.stories.tsx",
+    "**/*.story.tsx",
+    "**/*.test.tsx",
+    "**/*.d.ts"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelCore": "@babel/core"
+  }
 }
