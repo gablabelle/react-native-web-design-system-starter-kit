@@ -2,4 +2,16 @@
 
 # react-native-web-design-system-starter-kit
 
-A repo you can fork to start your own react-native-web UI components library to use for your projects
+## Work in progress.
+
+Fork this monorepo starter kit to create your own design system and use react-native primitives to build components in isolation and use them across your mobile and web apps.
+
+- lerna
+- storybook
+- react-native-web
+- babel
+- jest
+- eslint
+- styled-components
+- styleint
+- prettier
