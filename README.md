@@ -24,6 +24,6 @@ Fork this monorepo starter kit to create your own design system and use react-na
 
 2 - Structural Testing (StoryShots).
 
-3 - Component, screen and layouts files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
+3 - Component, screen and layout files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
 
 If you are looking for the old version of this repo use `git checkout old`.
