@@ -1,31 +1,26 @@
-# Work In Progress
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-## react-native-web-storybook-typescript
+# react-native-web-design-system-starter-kit
 
-WIP for a monorepo boilerplate including 3 packages
+## Work in progress.
 
-- universal: a react storybook to develop and test your React-Native components in isolation.
-- web: create-react-app project with react-native-web to import universal components (from `universal`) and render them in the browser.
-- native: TODO react-native project to import universal components (from `universal`) and render them on mobile device natively.
+Fork this monorepo starter kit to create your own design system and use react-native primitives to build components in isolation and use them across your mobile and web apps.
 
-So the goal is to have one codebase you can run on the web and on mobile devices.
+- lerna
+- storybook
+- react-native-web
+- babel
+- jest
+- eslint
+- styled-components
+- stylelint
+- prettier
 
-## usage
+## TODO
 
-1. Run `yarn` in monorepo to get the dependencies
+0 - Fix stylelint and storybook addons configurations.
+1 - Examples for unit tests.
+2 - Structural Testing (StoryShots).
+3 - Component, screen and layouts files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
 
-2. In the `packages/universal` folder, run `yarn build` or `yarn watch` to transpile the components and make them available to the other packages.
-
-3. In the `packages/universal` folder, run `yarn storybook` to launch the Storybook
-
-4. In the `packages/web` folder, run `yarn start` to launch the create-react-app website that is using the universal component from `packages/universal`.
-
-## TODOs
-
-1. Setup `native` package
-
-2. Use `lerna` ?
-
-3. Structural Testing (StoryShots)
-
-4. Unit tests
+If you are looking for the old version of this repo use `git checkout old`.

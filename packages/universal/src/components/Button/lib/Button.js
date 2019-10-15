@@ -12,14 +12,16 @@ var _native = _interopRequireDefault(require("styled-components/native"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const StyledText = _native.default.Text.withConfig({
-  displayName: "Welcome__StyledText",
-  componentId: "sc-13g6phe-0"
+  displayName: "Button__StyledText",
+  componentId: "jsb92n-0"
 })(["color:red;"]);
 
-function Welcome() {
-  return _react.default.createElement(StyledText, null, "Welcome");
+function Button() {
+  return _react.default.createElement("button", {
+    type: "button"
+  }, _react.default.createElement(StyledText, null, "Click me"));
 }
 
-var _default = Welcome;
+var _default = Button;
 exports.default = _default;
-//# sourceMappingURL=Welcome.js.map
+//# sourceMappingURL=Button.js.map
