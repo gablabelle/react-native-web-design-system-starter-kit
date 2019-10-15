@@ -13,5 +13,7 @@ Fork this monorepo starter kit to create your own design system and use react-na
 - jest
 - eslint
 - styled-components
-- styleint
+- stylelint
 - prettier
+
+If you are looking for the old version of this repo use `git checkout old`.
