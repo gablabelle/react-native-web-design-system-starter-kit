@@ -16,6 +16,12 @@ Fork this monorepo starter kit to create your own design system and use react-na
 - stylelint
 - prettier
 
+## How?
+
+- `lerna boostrap` at the root of the repo to install dependencies
+- `cd packages/universal && yarn run storybook` to launch storybook.
+- Check the `package.json` to see all the scripts you can run. Better docs coming soon. ;-)
+
 ## TODO
 
 0 - Fix stylelint and storybook addons configurations.
