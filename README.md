@@ -24,7 +24,7 @@ Fork this monorepo starter kit to create your own design system and use react-na
 
 ## TODO
 
-0 - Fix stylelint, jest and storybook addons configurations.
+0 - Configure jest and storybook addons.
 
 1 - Examples for unit tests.
 
