@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 const StyledText = styled.Text`
-  z-index: 1;
+  background-color: green;
   color: red;
   position: absolute;
-  background-color: green;
+  z-index: 1;
 `;
 
 function Welcome() {
