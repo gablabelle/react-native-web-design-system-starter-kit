@@ -32,4 +32,6 @@ Fork this monorepo starter kit to create your own design system and use react-na
 
 3 - Component, screen and layout files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
 
+4 - Real react-native components examples working on both mobile and web.
+
 If you are looking for the old version of this repo use `git checkout old`.
