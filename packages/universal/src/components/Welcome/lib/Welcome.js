@@ -14,7 +14,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const StyledText = _native.default.Text.withConfig({
   displayName: "Welcome__StyledText",
   componentId: "sc-13g6phe-0"
-})(["color:red;"]);
+})(["background-color:gray;color:black;"]);
 
 function Welcome() {
   return _react.default.createElement(StyledText, null, "Welcome");
