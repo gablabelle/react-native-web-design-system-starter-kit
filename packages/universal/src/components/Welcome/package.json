@@ -5,9 +5,9 @@
   "main": "lib/Welcome.js",
   "types": "lib/Welcome.d.ts",
   "scripts": {
-    "build:declaration": "tsc --project tsconfig.json",
     "build:es": "BABEL_ENV=build babel src --root-mode upward --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments",
-    "build:es:watch": "BABEL_ENV=build babel src --root-mode upward --watch --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments"
+    "build:es:watch": "BABEL_ENV=build babel src --root-mode upward --watch --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments",
+    "build:declaration": "tsc --project tsconfig.json"
   },
   "files": [
     "lib"
