@@ -24,14 +24,12 @@ Fork this monorepo starter kit to create your own design system and use react-na
 
 ## TODO
 
-0 - Configure jest and storybook addons.
+- [ ] Configure jest and storybook addons.
 
-1 - Examples for unit tests.
+- [ ] Examples for unit tests.
 
-2 - Structural Testing (StoryShots).
+- [ ] Structural Testing (StoryShots).
 
-3 - Component, screen and layout files creation script. i.e `yarn run create:component Button` or `yarn run create:layout AlternateLayout.`
+- [x] Component files creation script using `plop` to create a new component without having to write any boilerplate. `yarn run generate component HelloWorld`
 
-4 - Real react-native components examples working on both mobile and web.
-
-If you are looking for the old version of this repo use `git checkout old`.
+- [ ] Real react-native components examples working on both mobile and web.
