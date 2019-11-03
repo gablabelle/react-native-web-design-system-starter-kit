@@ -1,0 +1,14 @@
+{
+  "name": "@universal/{{dashCase name}}",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/{{pascalCase name}}.js",
+  "types": "lib/{{pascalCase name}}.d.ts",
+  "scripts": {
+    "build:declaration": "tsc --project tsconfig.json",
+    "build:es": "BABEL_ENV=build babel src --root-mode upward --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments"
+  },
+  "files": [
+    "lib"
+  ]
+}
