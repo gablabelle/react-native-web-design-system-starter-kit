@@ -1,1 +1,0 @@
-{"version":3,"sources":["../universal.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AACA;;AACA","sourcesContent":["/* INJECT_IMPORT */\nexport { default as Button } from './src/components/Button';\nexport { default as Welcome } from './src/components/Welcome';\n"],"file":"universal.js"}

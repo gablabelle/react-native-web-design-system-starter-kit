@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "jsx": "react-native",
+    "declaration": true,
+    "declarationDir": "../lib",
+    "sourceMap": true,
+    "outDir": "../lib",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "esModuleInterop": true
+  },
+  "rootDir": "./",
+  "include": ["./"],
+  "exclude": ["**/lib", "**/*.stories.tsx", "**/*.story.tsx", "**/*.test.tsx"],
+  "paths": {
+    "@universal": ["./"],
+    "@universal/*": ["./components/*"]
+  }
+  // "awesomeTypescriptLoaderOptions": {
+  //   "useBabel": true,
+  //   "babelCore": "@babel/core"
+  // }
+}

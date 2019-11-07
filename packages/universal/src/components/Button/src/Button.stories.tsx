@@ -1,5 +1,5 @@
-// import * as React from 'react';
-// import { storiesOf } from '@storybook/react';
+import * as React from 'react';
+import { storiesOf } from '@storybook/react';
 // import Button from './Button';
 
-// storiesOf('Button', module).add('Storybook', () => <Button>Submit</Button>);
+storiesOf('Button', module).add('Storybook', () => <>Submit</>);

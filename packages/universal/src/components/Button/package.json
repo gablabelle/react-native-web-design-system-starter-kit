@@ -4,12 +4,7 @@
   "license": "MIT",
   "main": "lib/Button.js",
   "types": "lib/Button.d.ts",
-  "scripts": {
-    "build:es": "BABEL_ENV=build babel src --root-mode upward --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments",
-    "build:es:watch": "BABEL_ENV=build babel src --root-mode upward --watch --out-dir lib --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments",
-    "build:types": "tsc --project tsconfig.json --noEmit false --emitDeclarationOnly"
-  },
-  "files": [
-    "lib"
-  ]
+  "publishConfig": {
+    "access": "public"
+  }
 }
