@@ -16,15 +16,15 @@
     "baseUrl": ".",
     "esModuleInterop": true
   },
-  "rootDir": "./",
-  "include": ["./"],
+  "rootDir": "./src",
+  "include": ["./src"],
   "exclude": ["**/lib", "**/*.stories.tsx", "**/*.story.tsx", "**/*.test.tsx"],
   "paths": {
-    "@universal": ["./"],
-    "@universal/*": ["./components/*"]
+    "@universal": ["./src"],
+    "@universal/*": ["./src/components/*"]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelCore": "@babel/core"
   }
-  // "awesomeTypescriptLoaderOptions": {
-  //   "useBabel": true,
-  //   "babelCore": "@babel/core"
-  // }
 }

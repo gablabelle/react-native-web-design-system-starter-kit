@@ -1,5 +1,12 @@
-import * as React from 'react';
-import { storiesOf } from '@storybook/react';
-// import Button from './Button';
+import React from 'react';
+import { action } from '@storybook/addon-actions';
+import Button from './Button';
 
-storiesOf('Button', module).add('Storybook', () => <>Submit</>);
+export default {
+  component: Button,
+  title: 'Button',
+};
+
+export const text = (): any => (
+  <Button onClick={action('click')}>Hello button</Button>
+);

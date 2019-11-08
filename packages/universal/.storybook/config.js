@@ -8,7 +8,7 @@ addDecorator(withKnobs);
 setOptions({
   name: 'Components library',
   // url: 'https://necolas.github.io/react-native-web',
-  addonPanelInRight: true,
+  addonPanelInRight: false,
 });
 
 // automatically import all files ending in *.stories.tsx

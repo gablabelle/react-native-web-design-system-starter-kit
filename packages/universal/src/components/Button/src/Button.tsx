@@ -1,14 +1,14 @@
 import React from 'react';
-import styled from 'styled-components/native';
 
-const StyledText = styled.Text`
-  color: red;
-`;
+interface Props {
+  children: string;
+  onClick: () => void;
+}
 
-function Button(): JSX.Element {
+function Button({ children, onClick }: Props): JSX.Element {
   return (
-    <button type="button">
-      <StyledText>Click me</StyledText>
+    <button type="button" onClick={onClick}>
+      {children}
     </button>
   );
 }
