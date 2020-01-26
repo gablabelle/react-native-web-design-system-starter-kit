@@ -10,6 +10,7 @@
   "env": {
     "browser": true,
     "node": true,
+    "es6": true,
     "jest": true
   },
   "plugins": ["react", "jsx-a11y", "import", "prettier", "@typescript-eslint"],
@@ -35,6 +36,20 @@
   "rules": {
     "prettier/prettier": ["error"],
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "no-unused-vars": "off",
+    "comma-dangle": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never",
+        "mjs": "never",
+        "jsx": "never",
+        "tsx": "never"
+      }
+    ],
     "import/no-extraneous-dependencies": [
       "warn",
       { "packageDir": "./packages/universal" }
