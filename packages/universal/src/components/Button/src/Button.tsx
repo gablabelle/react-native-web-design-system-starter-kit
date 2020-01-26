@@ -1,15 +1,14 @@
-/* eslint-disable import/no-extraneous-dependencies */
-import React from 'react';
-import styled from 'styled-components/native';
+import React, { ReactNode } from 'react';
 
-const StyledText = styled.Text`
-  color: red;
-`;
+interface Props {
+  onClick?: () => void;
+  children: ReactNode;
+}
 
-function Button(): JSX.Element {
+function Button({ onClick, children }: Props) {
   return (
-    <button type="button">
-      <StyledText>Click me</StyledText>
+    <button type="button" onClick={onClick}>
+      {children}
     </button>
   );
 }

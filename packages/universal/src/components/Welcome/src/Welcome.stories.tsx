@@ -3,10 +3,11 @@ import Welcome from './Welcome';
 
 export default {
   title: 'Welcome',
+  component: Welcome,
 };
 
-export const toStorybook = () => <Welcome />;
+export const ToStorybook = () => <Welcome />;
 
-toStorybook.story = {
+ToStorybook.story = {
   name: 'to Storybook',
 };
